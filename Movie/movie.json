@@ -240,5 +240,47 @@
             "title": "Super/Man",
             "year": "2021"
         }
+    },
+    "Harry-Potter": {
+        "Harry Potter and the Deathly Hallows: Part 2": {
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "year": "2011"
+        },
+        "Harry Potter and the Sorcerer's Stone": {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "year": "2001"
+        },
+        "Harry Potter and the Prisoner of Azkaban": {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "year": "2004"
+        },
+        "Harry Potter and the Chamber of Secrets": {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "year": "2002"
+        },
+        "Harry Potter and the Goblet of Fire": {
+            "title": "Harry Potter and the Goblet of Fire",
+            "year": "2005"
+        },
+        "Harry Potter and the Order of the Phoenix": {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "year": "2007"
+        },
+        "Harry Potter and the Deathly Hallows: Part 1": {
+            "title": "Harry Potter and the Deathly Hallows: Part 1",
+            "year": "2010"
+        },
+        "Harry Potter and the Half-Blood Prince": {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "year": "2009"
+        },
+        "Harry Potter 20th Anniversary: Return to Hogwarts": {
+            "title": "Harry Potter 20th Anniversary: Return to Hogwarts",
+            "year": "2022"
+        },
+        "Harry Potter and the Forbidden Journey": {
+            "title": "Harry Potter and the Forbidden Journey",
+            "year": "2010"
+        }
     }
 }

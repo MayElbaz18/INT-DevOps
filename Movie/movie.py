@@ -3,17 +3,17 @@ import json
 import os
 
 # Open the config file
-with open('config.json', 'r') as f:
+with open('Movie/config.json', 'r') as f:
     config = json.load(f)
 
 
 # Create the file movie.json if isn't exist
-if not os.path.exists('movie.json'):
-    with open('movie.json', 'w') as f:
+if not os.path.exists('Movie/movie.json'):
+    with open('Movie/movie.json', 'w') as f:
         f.write("{}")   
 
 # Open movie.json to read data
-with open('movie.json', 'r') as f:
+with open('Movie/movie.json', 'r') as f:
  current_info = json.load(f)            
 
 def movie_found_in_file(search): 
@@ -48,20 +48,20 @@ def get_movie(search):
                 movie_list[title] = {'title': title, 'year': year}
 
             # Save the search results in the JSON file under the search key
-            with open('movie.json', 'r') as f:
+            with open('Movie/movie.json', 'r') as f:
                     current_info = json.load(f)
 
 
             # Save the new search results under the search key
             current_info[search] = movie_list
 
-            with open('movie.json', 'w') as f:
+            with open('Movie/movie.json', 'w') as f:
                 json.dump(current_info, f, indent=4)
   
 
 # Print movie information from the JSON file
 def response(search):
-    with open('movie.json', 'r') as f:
+    with open('Movie/movie.json', 'r') as f:
         current_info = json.load(f)
     if search in current_info:
         print(f"Movies found for '{search}' in the JSON file:")
