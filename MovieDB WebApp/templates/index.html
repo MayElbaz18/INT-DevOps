@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Data Base</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>MovieDB-WebApp</h1>
+    <br />
+    <br />
+    <form method="GET", action="/get_movie">
+        <label>Search a Movie:</label>
+        <input class="search" name="search" required>
+        <button type="submit">SUBMIT</button>
+    </form>
+    <div id="result">
+        <h2>Search Results</h2>
+        <ul id="movieList"></ul> <!-- To display movies as a list -->
+        <button id="closeResult">Close Results</button> <!-- Button to close results -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
