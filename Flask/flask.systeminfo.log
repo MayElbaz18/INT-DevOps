@@ -461,3 +461,17 @@
 2024-10-28 10:01:41,269 - INFO - 127.0.0.1 - - [28/Oct/2024 10:01:41] "GET /systeminfo?metric=all HTTP/1.1" 200 -
 2024-10-28 10:06:18,783 - INFO -  * Detected change in 'C:\\Users\\mayel\\OneDrive\\Desktop\\DevOps\\Flask\\app.py', reloading
 2024-10-28 10:06:18,842 - INFO -  * Restarting with stat
+2024-11-03 09:22:36,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.68.128:8080
+2024-11-03 09:22:36,805 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-03 09:22:36,808 - INFO -  * Restarting with stat
+2024-11-03 09:22:37,232 - WARNING -  * Debugger is active!
+2024-11-03 09:22:37,232 - INFO -  * Debugger PIN: 733-019-298
+2024-11-03 09:22:46,775 - INFO - Home page retrived successfully.
+2024-11-03 09:22:46,775 - INFO - 192.168.68.128 - - [03/Nov/2024 09:22:46] "GET / HTTP/1.1" 200 -
+2024-11-03 09:22:46,879 - INFO - 192.168.68.128 - - [03/Nov/2024 09:22:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-03 09:22:56,486 - INFO - ALL-info retrived successfully.
+2024-11-03 09:22:56,486 - INFO - Argument parsing - JSON - completed.
+2024-11-03 09:22:56,486 - INFO - 192.168.68.128 - - [03/Nov/2024 09:22:56] "GET /systeminfo/json?metric=all HTTP/1.1" 200 -
