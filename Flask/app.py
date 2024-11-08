@@ -15,7 +15,7 @@ logging.basicConfig(
 class NoArgumentsException(Exception):
     pass
 
-app = Flask(__name__)  # __name__ helps Flask locate resources and configurations
+app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
