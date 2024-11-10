@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Liveness Check</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Temperature Conversion Tool</h2>
+    <br />
+    <div id="result">
+        <p id="tempf"></p>
+    </div>    
+    <form id="convert-form" type="submit">
+        <label>Search a URL:</label>
+        <input  type="text" class="temp" id="temp" name="c">
+        <button type="submit" id="convert" value="convert">Convert to Fahrenheit</button>
+    </form>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

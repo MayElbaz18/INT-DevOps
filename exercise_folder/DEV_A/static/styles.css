@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: #a1a7ab; /* Nordic Grey */
+}
+
+#DisplayTime {
+    background-color: #6050dc; /* Majorelle Blue */
+    color: #fff;
+    border: 2px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: #333;
+}
