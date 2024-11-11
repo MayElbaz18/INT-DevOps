@@ -20,5 +20,5 @@ async function Calculate(num1, num2, operation) {
     if (typeof data === 'string'){
         alert(data);
     }
-    document.getElementById('equal').textContent = `Result: ${data.Result}`;
+    equal.textContent = `Result: ${data.Result}`;
 }

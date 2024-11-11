@@ -37,7 +37,6 @@ label {
     color: aquamarine;
     background-color: black;
     padding: 10px;
-
 }
 
 input {
@@ -46,7 +45,6 @@ input {
     padding: 10px;
     border: none;
     border-radius: 4px;
-
 }
 
 #operation {
