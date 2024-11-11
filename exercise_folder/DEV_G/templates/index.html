@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Word Count Tool</h2>
+    <br />
+    <br />
+    <form id="count-form" method="GET", action="/count">
+        <label>Count Your Words:</label>
+        <br />
+        <br />
+        <textarea name="words" id="words" rows="10" cols="50" placeholder="Type Words To Count Here..."></textarea>
+        <br />
+        <button type="submit" class="submit">Count Words</button>
+    </form>
+    <div id="result">
+        <p id="count"></p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(205, 159, 246);
+}
+
+h2 {
+    font-size: 50px;
+    padding: 1px;
+}
+
+.submit {
+    background-color: rgb(144, 241, 106);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(12, 10, 10);
+    padding: 15px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.submit:hover {
+    background-color: azure;
+}
+
+label {
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: monospace;
+    color: aquamarine;
+    background-color: black;
+    padding: 3px;
+}
+
+#email {
+    margin-right: 78px;
+    margin-top: 0.5%;
+}
+
+
+input {
+    width: 15%;
+    padding: 10px;
+    border: 20px;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 15%;
+    padding: 35px;
+    border: 20px;
+    border-radius: 4px;
+    margin-top: 1%;
+    margin-left: 0.2%;
+    text-align: center;
+}
+
+div {
+    margin-top: 1%;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: monospace;
+    color: aquamarine;
+    background-color: rgb(191, 132, 243);
+    padding: 3px;
+}
+
