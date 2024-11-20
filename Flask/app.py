@@ -6,7 +6,7 @@ import logging
 
 
 logging.basicConfig(
-    filename= 'Flask/flask.systeminfo.log', # The Log File
+    filename= 'flask.systeminfo.log', # The Log File
     filemode= 'a', # Append To File
     format= '%(asctime)s - %(levelname)s - %(message)s', # %(Time) - %(Level) - %(LogMessage)
     level= logging.DEBUG # DEBUG To Handle All Logs Levels
@@ -27,6 +27,7 @@ def systeminfo():
         try: 
             metric = request.args.get('metric')
             system_info = SystemInfo()
+            metrics = ["os_info", "cpu", "mem", "proc", "hd", "time", "all"]
 
             if metric == "os_info":
                 os_info, hostname, user = system_info.get_os_info()
@@ -77,7 +78,7 @@ def systeminfo():
                          'Hard-Disk': {hd_result}//\
                          'Time': Local Time: {local_time}, Boot Time: {boot_time}."
             
-            elif not (metric == "os_info" or metric == "cpu" or metric == "mem" or metric == "proc" or metric == "hd" or metric == "time" or metric == "all"):
+            elif metric not in metrics:
                  logging.error(f"Invalid Metric Provided. Input: {metric}")
                  raise NoArgumentsException("Error: Invalid Metric Provided. Please Provide Metric From The List > [os_info, cpu, mem, proc, hd, time, all]")
 

@@ -1,12 +1,5 @@
 [
     {
-        "url": "miit.gov.cn",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
         "url": "googletagmanager.com",
         "status_code": "DOWN",
         "expiration_status": "Unknown",
@@ -21,6 +14,13 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
+        "url": "github.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-03-07 23:59:59",
+        "SSL_issuer": "Sectigo Limited"
+    },
+    {
         "url": "nih.gov",
         "status_code": "DOWN",
         "expiration_status": "Unknown",
@@ -28,11 +28,11 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "nginx.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-02-02 08:59:20",
-        "SSL_issuer": "Let's Encrypt"
+        "url": "miit.gov.cn",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
     },
     {
         "url": "medium.com",
@@ -42,18 +42,25 @@
         "SSL_issuer": "Cloudflare, Inc."
     },
     {
-        "url": "github.com",
+        "url": "flickr.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-03-07 23:59:59",
-        "SSL_issuer": "Sectigo Limited"
+        "expiration_date": "2025-03-04 23:59:59",
+        "SSL_issuer": "Amazon"
     },
     {
-        "url": "apple.com",
+        "url": "nginx.org",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-02-12 20:09:50",
-        "SSL_issuer": "Apple Inc."
+        "expiration_date": "2025-02-02 08:59:20",
+        "SSL_issuer": "Let's Encrypt"
+    },
+    {
+        "url": "cloudflare.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-09 00:16:31",
+        "SSL_issuer": "Google Trust Services"
     },
     {
         "url": "forms.gle",
@@ -63,17 +70,24 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "maps.app.goo.gl",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "github.io",
+        "url": "vimeo.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-03-14 23:59:59",
+        "expiration_date": "2024-12-24 10:11:54",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "adobe.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-15 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "tiktok.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-26 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -84,10 +98,17 @@
         "SSL_issuer": "Let's Encrypt"
     },
     {
-        "url": "tiktok.com",
+        "url": "maps.app.goo.gl",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "bit.ly",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-08-26 23:59:59",
+        "expiration_date": "2025-05-06 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -98,10 +119,59 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
+        "url": "github.io",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-03-14 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "apple.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-02-12 20:09:50",
+        "SSL_issuer": "Apple Inc."
+    },
+    {
         "url": "x.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
         "expiration_date": "2025-08-18 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "policies.google.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "plus.google.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "youtube.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "player.vimeo.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2024-12-24 10:11:54",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "en.wikipedia.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-17 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -112,24 +182,73 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
+        "url": "youtu.be",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "mozilla.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-02-13 14:40:25",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "soundcloud.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-03-09 12:22:14",
+        "SSL_issuer": "GlobalSign nv-sa"
+    },
+    {
+        "url": "beian.miit.gov.cn",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "maps.google.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "wixsite.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "archive.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-23 14:17:22",
+        "SSL_issuer": "GoDaddy.com, Inc."
+    },
+    {
+        "url": "wordpress.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-02-11 13:10:36",
+        "SSL_issuer": "Let's Encrypt"
+    },
+    {
+        "url": "facebook.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2024-11-27 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
         "url": "linkedin.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
         "expiration_date": "2025-04-14 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "en.wikipedia.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-10-17 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "bit.ly",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-05-06 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -140,18 +259,11 @@
         "SSL_issuer": "GoDaddy.com, Inc."
     },
     {
-        "url": "microsoft.com",
+        "url": "play.google.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-04-22 15:47:07",
-        "SSL_issuer": "Microsoft Corporation"
-    },
-    {
-        "url": "flickr.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-03-04 23:59:59",
-        "SSL_issuer": "Amazon"
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
     },
     {
         "url": "amazon.com",
@@ -161,53 +273,11 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "adobe.com",
+        "url": "spotify.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-07-15 23:59:59",
+        "expiration_date": "2025-02-04 23:59:59",
         "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "wordpress.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-02-11 13:10:36",
-        "SSL_issuer": "Let's Encrypt"
-    },
-    {
-        "url": "soundcloud.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-03-09 12:22:14",
-        "SSL_issuer": "GlobalSign nv-sa"
-    },
-    {
-        "url": "vimeo.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-24 10:11:54",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "mozilla.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-18 04:29:11",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "wikipedia.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-10-17 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "archive.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-23 14:17:22",
-        "SSL_issuer": "GoDaddy.com, Inc."
     },
     {
         "url": "europa.eu",
@@ -224,11 +294,18 @@
         "SSL_issuer": "DigiCert Inc"
     },
     {
-        "url": "wixsite.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
+        "url": "w3.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2024-12-31 23:59:59",
+        "SSL_issuer": "Cloudflare, Inc."
+    },
+    {
+        "url": "apps.apple.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-14 19:39:31",
+        "SSL_issuer": "Apple Inc."
     },
     {
         "url": "ec.europa.eu",
@@ -238,52 +315,17 @@
         "SSL_issuer": "GlobalSign nv-sa"
     },
     {
-        "url": "facebook.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-11-22 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "qq.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "plus.google.com",
+        "url": "goo.gl",
         "status_code": "LIVE",
         "expiration_status": "valid",
         "expiration_date": "2025-01-13 08:36:56",
         "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "wordpress.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-31 23:59:59",
-        "SSL_issuer": "Sectigo Limited"
-    },
-    {
-        "url": "office.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-09-13 16:26:36",
-        "SSL_issuer": "Microsoft Corporation"
-    },
-    {
         "url": "wa.me",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2024-11-22 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "whatsapp.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-11-22 23:59:59",
+        "expiration_date": "2024-11-27 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -294,88 +336,18 @@
         "SSL_issuer": "DigiCert Inc"
     },
     {
-        "url": "itunes.apple.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-14 19:39:31",
-        "SSL_issuer": "Apple Inc."
+        "url": "sciencedirect.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "goo.gl",
+        "url": "wikipedia.org",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "tumblr.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-15 23:59:59",
-        "SSL_issuer": "Sectigo Limited"
-    },
-    {
-        "url": "httpd.apache.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-02 08:43:03",
-        "SSL_issuer": "Let's Encrypt"
-    },
-    {
-        "url": "gravatar.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-04 23:59:59",
-        "SSL_issuer": "Sectigo Limited"
-    },
-    {
-        "url": "open.spotify.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-11-28 02:06:42",
-        "SSL_issuer": "Certainly"
-    },
-    {
-        "url": "t.co",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-27 14:58:35",
-        "SSL_issuer": "Let's Encrypt"
-    },
-    {
-        "url": "apps.apple.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-14 19:39:31",
-        "SSL_issuer": "Apple Inc."
-    },
-    {
-        "url": "maps.google.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "w3.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-31 23:59:59",
-        "SSL_issuer": "Cloudflare, Inc."
-    },
-    {
-        "url": "player.vimeo.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-12-21 17:11:14",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "policies.google.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
+        "expiration_date": "2025-10-17 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
     },
     {
         "url": "youtube-nocookie.com",
@@ -385,74 +357,11 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "instagram.com",
+        "url": "wordpress.org",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2024-11-22 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "beian.miit.gov.cn",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "f5.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "spotify.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-02-04 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "issuu.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "nytimes.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-03-13 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "creativecommons.org",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "www.ncbi.nlm.nih.gov",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-08-02 21:41:30",
-        "SSL_issuer": "GoDaddy.com, Inc."
-    },
-    {
-        "url": "researchgate.net",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "sciencedirect.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
+        "expiration_date": "2024-12-31 23:59:59",
+        "SSL_issuer": "Sectigo Limited"
     },
     {
         "url": "blogspot.com",
@@ -462,80 +371,45 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "cloudflare.com",
+        "url": "nytimes.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-01-09 00:16:31",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "youtube.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "m.facebook.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2024-11-22 23:59:59",
+        "expiration_date": "2025-03-13 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
-        "url": "youtu.be",
+        "url": "itunes.apple.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
+        "expiration_date": "2025-01-14 19:39:31",
+        "SSL_issuer": "Apple Inc."
     },
     {
-        "url": "who.int",
+        "url": "instagram.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-01-18 07:41:00",
-        "SSL_issuer": "Google Trust Services"
+        "expiration_date": "2024-11-27 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
     },
     {
-        "url": "forbes.com",
+        "url": "office.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-09-13 16:26:36",
+        "SSL_issuer": "Microsoft Corporation"
+    },
+    {
+        "url": "qq.com",
         "status_code": "DOWN",
         "expiration_status": "Unknown",
         "expiration_date": "Unknown",
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "sourceforge.net",
+        "url": "whatsapp.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2024-12-31 23:59:59",
-        "SSL_issuer": "Cloudflare, Inc."
-    },
-    {
-        "url": "reuters.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "docs.google.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "web.archive.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-23 14:17:22",
-        "SSL_issuer": "GoDaddy.com, Inc."
-    },
-    {
-        "url": "paypal.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-08-06 23:59:59",
+        "expiration_date": "2024-11-27 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -546,59 +420,80 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "wiley.com",
+        "url": "open.spotify.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2024-12-18 01:12:53",
+        "SSL_issuer": "Certainly"
+    },
+    {
+        "url": "httpd.apache.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-02 08:43:03",
+        "SSL_issuer": "Let's Encrypt"
+    },
+    {
+        "url": "docs.google.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:36:56",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "issuu.com",
         "status_code": "DOWN",
         "expiration_status": "Unknown",
         "expiration_date": "Unknown",
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "baidu.com",
+        "url": "t.co",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-03-01 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
+        "expiration_date": "2024-12-27 14:58:35",
+        "SSL_issuer": "Let's Encrypt"
     },
     {
-        "url": "bing.com",
+        "url": "gravatar.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-03-15 23:16:19",
-        "SSL_issuer": "Microsoft Corporation"
+        "expiration_date": "2025-01-04 23:59:59",
+        "SSL_issuer": "Sectigo Limited"
     },
     {
-        "url": "bbc.co.uk",
+        "url": "sourceforge.net",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-07-19 06:26:04",
-        "SSL_issuer": "GlobalSign nv-sa"
+        "expiration_date": "2024-12-31 23:59:59",
+        "SSL_issuer": "Cloudflare, Inc."
     },
     {
-        "url": "theguardian.com",
+        "url": "tumblr.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-10-18 10:57:40",
-        "SSL_issuer": "GlobalSign nv-sa"
+        "expiration_date": "2024-12-15 23:59:59",
+        "SSL_issuer": "Sectigo Limited"
     },
     {
-        "url": "live.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-03-10 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
+        "url": "researchgate.net",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "bbc.com",
+        "url": "creativecommons.org",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-07-19 06:26:04",
-        "SSL_issuer": "GlobalSign nv-sa"
+        "expiration_date": "2025-02-18 03:18:38",
+        "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "opera.com",
+        "url": "m.facebook.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-01-09 23:59:59",
+        "expiration_date": "2024-11-27 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -609,24 +504,129 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "harvard.edu",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-26 15:24:12",
-        "SSL_issuer": "Let's Encrypt"
+        "url": "wsj.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "mit.edu",
+        "url": "who.int",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-06-28 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
+        "expiration_date": "2025-01-18 07:41:00",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "www.ncbi.nlm.nih.gov",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-02 21:41:30",
+        "SSL_issuer": "GoDaddy.com, Inc."
+    },
+    {
+        "url": "wiley.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "bing.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-03-15 23:16:19",
+        "SSL_issuer": "Microsoft Corporation"
     },
     {
         "url": "reddit.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
         "expiration_date": "2025-04-11 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "live.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-03-10 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "reuters.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "un.org",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "shopify.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-30 16:37:19",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "nginx.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "theguardian.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-18 10:57:40",
+        "SSL_issuer": "GlobalSign nv-sa"
+    },
+    {
+        "url": "yahoo.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-15 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "web.archive.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-23 14:17:22",
+        "SSL_issuer": "GoDaddy.com, Inc."
+    },
+    {
+        "url": "f5.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "opera.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-09 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "bbc.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-07-19 06:26:04",
+        "SSL_issuer": "GlobalSign nv-sa"
+    },
+    {
+        "url": "paypal.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-08-06 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -637,7 +637,7 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "imdb.com",
+        "url": "forbes.com",
         "status_code": "DOWN",
         "expiration_status": "Unknown",
         "expiration_date": "Unknown",
@@ -651,10 +651,38 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
-        "url": "nginx.com",
+        "url": "zoom.us",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-02-05 21:32:17",
+        "expiration_date": "2025-04-05 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "mit.edu",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-06-28 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "imdb.com",
+        "status_code": "DOWN",
+        "expiration_status": "Unknown",
+        "expiration_date": "Unknown",
+        "SSL_issuer": "Unknown Issuer"
+    },
+    {
+        "url": "wikimedia.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-17 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "harvard.edu",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-26 15:24:12",
         "SSL_issuer": "Let's Encrypt"
     },
     {
@@ -665,69 +693,6 @@
         "SSL_issuer": "GlobalSign nv-sa"
     },
     {
-        "url": "zoom.us",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-04-05 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "springer.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-02-01 06:12:36",
-        "SSL_issuer": "Let's Encrypt"
-    },
-    {
-        "url": "doi.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-04 12:16:25",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "un.org",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
-    },
-    {
-        "url": "cnn.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-10-29 19:18:29",
-        "SSL_issuer": "GlobalSign nv-sa"
-    },
-    {
-        "url": "wikimedia.org",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-10-17 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
-        "url": "weebly.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-26 18:44:57",
-        "SSL_issuer": "Let's Encrypt"
-    },
-    {
-        "url": "shopify.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-30 16:37:19",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "dropbox.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-12-08 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
-    },
-    {
         "url": "gnu.org",
         "status_code": "LIVE",
         "expiration_status": "valid",
@@ -735,11 +700,11 @@
         "SSL_issuer": "Let's Encrypt"
     },
     {
-        "url": "wsj.com",
-        "status_code": "DOWN",
-        "expiration_status": "Unknown",
-        "expiration_date": "Unknown",
-        "SSL_issuer": "Unknown Issuer"
+        "url": "baidu.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-03-01 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
     },
     {
         "url": "accounts.google.com",
@@ -749,6 +714,27 @@
         "SSL_issuer": "Google Trust Services"
     },
     {
+        "url": "doi.org",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-04 12:16:25",
+        "SSL_issuer": "Google Trust Services"
+    },
+    {
+        "url": "cnn.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-29 19:18:29",
+        "SSL_issuer": "GlobalSign nv-sa"
+    },
+    {
+        "url": "springer.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-02-01 06:12:36",
+        "SSL_issuer": "Let's Encrypt"
+    },
+    {
         "url": "washingtonpost.com",
         "status_code": "DOWN",
         "expiration_status": "Unknown",
@@ -756,18 +742,11 @@
         "SSL_issuer": "Unknown Issuer"
     },
     {
-        "url": "play.google.com",
+        "url": "weebly.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:36:56",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
-        "url": "yahoo.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-15 23:59:59",
-        "SSL_issuer": "DigiCert Inc"
+        "expiration_date": "2025-01-26 18:44:57",
+        "SSL_issuer": "Let's Encrypt"
     },
     {
         "url": "php.net",
@@ -777,17 +756,38 @@
         "SSL_issuer": "Let's Encrypt"
     },
     {
-        "url": "ibm.com",
+        "url": "bbc.co.uk",
         "status_code": "LIVE",
         "expiration_status": "valid",
-        "expiration_date": "2025-10-18 23:59:59",
+        "expiration_date": "2025-07-19 06:26:04",
+        "SSL_issuer": "GlobalSign nv-sa"
+    },
+    {
+        "url": "dropbox.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-12-08 23:59:59",
         "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "googleblog.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-01-13 08:37:12",
+        "SSL_issuer": "Google Trust Services"
     },
     {
         "url": "bloomberg.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
         "expiration_date": "2025-11-03 23:59:59",
+        "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "ibm.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-10-18 23:59:59",
         "SSL_issuer": "DigiCert Inc"
     },
     {
@@ -812,13 +812,6 @@
         "SSL_issuer": "Entrust, Inc."
     },
     {
-        "url": "googleblog.com",
-        "status_code": "LIVE",
-        "expiration_status": "valid",
-        "expiration_date": "2025-01-13 08:37:12",
-        "SSL_issuer": "Google Trust Services"
-    },
-    {
         "url": "oracle.com",
         "status_code": "LIVE",
         "expiration_status": "valid",
@@ -831,6 +824,13 @@
         "expiration_status": "valid",
         "expiration_date": "2025-06-07 23:59:59",
         "SSL_issuer": "DigiCert Inc"
+    },
+    {
+        "url": "microsoft.com",
+        "status_code": "LIVE",
+        "expiration_status": "valid",
+        "expiration_date": "2025-04-22 15:47:07",
+        "SSL_issuer": "Microsoft Corporation"
     },
     {
         "url": "amazonaws.com",
