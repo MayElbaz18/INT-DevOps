@@ -1,0 +1,210 @@
+{
+    "harry-potter": {
+        "Harry Potter and the Deathly Hallows: Part 2": {
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "year": "2011"
+        },
+        "Harry Potter and the Sorcerer's Stone": {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "year": "2001"
+        },
+        "Harry Potter and the Prisoner of Azkaban": {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "year": "2004"
+        },
+        "Harry Potter and the Chamber of Secrets": {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "year": "2002"
+        },
+        "Harry Potter and the Goblet of Fire": {
+            "title": "Harry Potter and the Goblet of Fire",
+            "year": "2005"
+        },
+        "Harry Potter and the Order of the Phoenix": {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "year": "2007"
+        },
+        "Harry Potter and the Deathly Hallows: Part 1": {
+            "title": "Harry Potter and the Deathly Hallows: Part 1",
+            "year": "2010"
+        },
+        "Harry Potter and the Half-Blood Prince": {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "year": "2009"
+        },
+        "Harry Potter 20th Anniversary: Return to Hogwarts": {
+            "title": "Harry Potter 20th Anniversary: Return to Hogwarts",
+            "year": "2022"
+        },
+        "Harry Potter and the Forbidden Journey": {
+            "title": "Harry Potter and the Forbidden Journey",
+            "year": "2010"
+        }
+    },
+    "spider-man": {
+        "Spider-Man: No Way Home": {
+            "title": "Spider-Man: No Way Home",
+            "year": "2021"
+        },
+        "Spider-Man": {
+            "title": "Spider-Man",
+            "year": "2002"
+        },
+        "Spider-Man: Homecoming": {
+            "title": "Spider-Man: Homecoming",
+            "year": "2017"
+        },
+        "Spider-Man 2": {
+            "title": "Spider-Man 2",
+            "year": "2004"
+        },
+        "The Amazing Spider-Man": {
+            "title": "The Amazing Spider-Man",
+            "year": "2012"
+        },
+        "Spider-Man: Into the Spider-Verse": {
+            "title": "Spider-Man: Into the Spider-Verse",
+            "year": "2018"
+        },
+        "Spider-Man 3": {
+            "title": "Spider-Man 3",
+            "year": "2007"
+        },
+        "Spider-Man: Far from Home": {
+            "title": "Spider-Man: Far from Home",
+            "year": "2019"
+        },
+        "The Amazing Spider-Man 2": {
+            "title": "The Amazing Spider-Man 2",
+            "year": "2014"
+        },
+        "Spider-Man: Across the Spider-Verse": {
+            "title": "Spider-Man: Across the Spider-Verse",
+            "year": "2023"
+        }
+    },
+    "super-man": {
+        "Super/Man: The Christopher Reeve Story": {
+            "title": "Super/Man: The Christopher Reeve Story",
+            "year": "2024"
+        },
+        "Super Man": {
+            "title": "Super Man",
+            "year": "2010"
+        },
+        "The Super Man": {
+            "title": "The Super Man",
+            "year": "2008\u20132017"
+        },
+        "Drama for All: Super Man": {
+            "title": "Drama for All: Super Man",
+            "year": "2021"
+        },
+        "Real Estate Super Man": {
+            "title": "Real Estate Super Man",
+            "year": "2007"
+        },
+        "I'm Super, Man": {
+            "title": "I'm Super, Man",
+            "year": "2013"
+        },
+        "Tin Can Super Man": {
+            "title": "Tin Can Super Man",
+            "year": "2014"
+        },
+        "Super Man! Two Words!": {
+            "title": "Super Man! Two Words!",
+            "year": "2015\u2013"
+        },
+        "Super Man! (Two Words!)": {
+            "title": "Super Man! (Two Words!)",
+            "year": "2015"
+        },
+        "Super/Man": {
+            "title": "Super/Man",
+            "year": "2021"
+        }
+    },
+    "time": {
+        "Once Upon a Time... in Hollywood": {
+            "title": "Once Upon a Time... in Hollywood",
+            "year": "2019"
+        },
+        "In Time": {
+            "title": "In Time",
+            "year": "2011"
+        },
+        "No Time to Die": {
+            "title": "No Time to Die",
+            "year": "2021"
+        },
+        "About Time": {
+            "title": "About Time",
+            "year": "2013"
+        },
+        "Once Upon a Time in America": {
+            "title": "Once Upon a Time in America",
+            "year": "1984"
+        },
+        "Once Upon a Time in the West": {
+            "title": "Once Upon a Time in the West",
+            "year": "1968"
+        },
+        "Prince of Persia: The Sands of Time": {
+            "title": "Prince of Persia: The Sands of Time",
+            "year": "2010"
+        },
+        "Once Upon a Time": {
+            "title": "Once Upon a Time",
+            "year": "2011\u20132018"
+        },
+        "Hot Tub Time Machine": {
+            "title": "Hot Tub Time Machine",
+            "year": "2010"
+        },
+        "A Time to Kill": {
+            "title": "A Time to Kill",
+            "year": "1996"
+        }
+    },
+    "x-man": {
+        "X man: Faen phan X": {
+            "title": "X man: Faen phan X",
+            "year": "2004"
+        },
+        "X Man": {
+            "title": "X Man",
+            "year": "2003\u20132007"
+        },
+        "X-Man vs Kuchisake-onna": {
+            "title": "X-Man vs Kuchisake-onna",
+            "year": "2011"
+        },
+        "X-Man": {
+            "title": "X-Man",
+            "year": "2002"
+        }
+    },
+    "Fifty Shades of Grey": {
+        "Fifty Shades of Grey": {
+            "title": "Fifty Shades of Grey",
+            "year": "2015"
+        },
+        "Sex Story: Fifty Shades of Grey": {
+            "title": "Sex Story: Fifty Shades of Grey",
+            "year": "2012"
+        },
+        "Fifty Shades of Grey Gardens": {
+            "title": "Fifty Shades of Grey Gardens",
+            "year": "2014"
+        },
+        "2z Gang: Fifty Shades of Grey": {
+            "title": "2z Gang: Fifty Shades of Grey",
+            "year": "2015"
+        },
+        "Fifty Shades of Grey as Told by the Dom": {
+            "title": "Fifty Shades of Grey as Told by the Dom",
+            "year": "2017"
+        }
+    }
+}
